@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file built by Maven
-COPY target/app.jar app.jar
+COPY target/demo-1.0.0.jar app.jar
 
 # Expose port your app listens on (optional)
 EXPOSE 8080
