@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: mythical45/newww:latest  # Replace with your actual image
+          image: rutu7448/newww  # Replace with your actual image
           ports:
             - containerPort: 8080
 ---
